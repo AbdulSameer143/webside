@@ -1,0 +1,20 @@
+.carousel-control-next-icon {
+    background-image: url('../../Image/leftarrow.svg');
+    rotate: 180deg;
+   height: 200px;
+   width: 200px;
+   margin-bottom:60px;
+   
+   
+}
+.carousel-control-prev-icon {
+    background-image: url('../../Image/leftarrow.svg');
+    height: 200px;
+    width: 200px;
+    margin-top:20px;
+}
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

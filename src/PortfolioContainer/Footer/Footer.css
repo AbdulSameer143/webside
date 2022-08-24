@@ -1,0 +1,59 @@
+.footer{
+    color: white;
+    background-color:#302f2f ;
+    position: relative;
+    top:-2px;
+    height: 400px;
+}
+.Headding{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+}
+.contactDiv{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 20px;
+}
+.left-footer{
+    margin-top: 30px;
+}
+.ContactTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    padding-right: 8px;
+}
+.colen{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding-right: 8px;
+}
+.contactdetails{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-right: 8px;
+}
+.contactdetailsAddress{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-right: 8px;
+
+}
+.spaceDiv{
+    text-indent: 50px;
+}
+.contact{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+.icon{
+height: 30px;
+width: 50px;
+}

@@ -1,0 +1,20 @@
+.aboutimg{
+    margin-top: 50px;
+filter: grayscale(100%);
+box-shadow: 0px 1px 5px 5px ;
+
+}
+.aboutContent{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.AboutTitle{
+display: flex;
+justify-content: center;
+
+}
+.aboutprofile{
+    display: flex;
+    justify-content: center;
+}
