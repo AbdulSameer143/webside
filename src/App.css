@@ -1,63 +1,78 @@
-.bodyCotainer{
+
+.bodyCotainer {
   margin: 0;
   padding: 0;
   height: 100vh;
+ 
+
 }
-.main_container{
+
+.main_container {
   background-image: url('./Image/bodyWallimg.webp');
   background-repeat: no-repeat;
-  background-position:top;
+  background-position: top;
   background-size: cover;
   position: relative;
-  
+
+}
+
+.slidermaindiv {
+  visibility: hidden;
 }
 
 
 
-/* @media only screen and (max-width: 460px) {
-    body{
-    background-image: url('./Image/bodyWallimg.webp');
-    background-size: cover;
-    width: 100%;
-    height: 500px;
-
-  }
-} */
-.AboutTitle{
-  margin-top: 100px;
-  font-family:  'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 64px;
-}
-.aboutDiv{
-margin-top: 20px;
-}
-.aboutContent{
-  font-family:  'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  margin-left: 10px;
+.aboutDiv {
+  margin-top: 20px;
 }
 
-.aboutimg{
-width: 90%;
-height: 400px;
+
+.aboutimg {
+  width: 90%;
+  height: 400px;
 
 }
-.aboutprofile{
+
+.aboutprofile {
   margin-right: 10px;
 }
-.wave2{
-    position: relative;
-   
-}
-.portFoliodiv{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+
+.wave2 {
   position: relative;
+
 }
-.wavaeStyle{
-position: relative;
-top: -2px;
+
+.spaceexperience {
+  height: 24%;
+ 
+  position: absolute;
+  top: 79%;
+}
+.wavaeStyle {
+  position: relative;
+  top: -2%;
+}
+@media only screen and (max-width: 1024px) {
+    .spaceexperience{
+      top: 71%;
+    }
+}
+ @media only screen and (max-width: 768px) {
+ .wavaeStyle{
+  top: -1px;
+ }
+ .spaceexperience{
+  top: 61%;
+ }
+}
+ @media only screen and (max-width: 425px){
+      .wavaeStyle {
+         top: -5px;
+}
+ }
+ @media only screen and (max-width: 320px){
+  .spaceexperience {
+   
+    top: 10%;
+  }
 }

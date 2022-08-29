@@ -2,18 +2,18 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './Profile.css';
-
+import MyPDF from '../Home/SameerResume.pdf'
 import Typewriter from 'typewriter-effect';
 
 function Profile() {
   return (
-    <div className='HomePage col-12 container'  >
+    <div className=' Home HomePage col-12 container'  >
 
       <div className='Profile-details-role'>
         <span className='hellocontend'>
           Hello, I'M
         </span>
-        <span className='nameContent'>Sameer</span>
+        <span className='nameContent '>Sameer</span>
       </div>
       <div className="Typewriter">
         <span className='primary-text'>
@@ -31,7 +31,7 @@ function Profile() {
         </span>
       </div>
       <div className='profileContent'>
-        <span style={{ textAlign: "center"}}>Ambitious professional seeking an opportunity as a Full Stack developer.</span>
+        <span style={{ textAlign: "center" }}>Ambitious professional seeking an opportunity as a Full Stack developer.</span>
       </div>
       <div className='profile-options'>
         {/* <a href='sameer.pdf' download="sameer sameer.pdf">
@@ -39,7 +39,7 @@ function Profile() {
               Get Resume
             </button>
           </a> */}
-        <a href='sameer.pdf' download="sameer sameer.pdf">
+        <a href={MyPDF} download>
           <button class="blob-btn">
             Get Resume
             <span class="blob-btn__inner">
@@ -53,16 +53,16 @@ function Profile() {
           </button>
         </a>
       </div>
-      <div style={{height:"0px"}}>
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-            <defs>
-              <filter id="goo">
-                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
-                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
-                <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
-              </filter>
-            </defs>
-          </svg>
+      <div style={{ height: "0px" }}>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+          <defs>
+            <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+              <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+            </filter>
+          </defs>
+        </svg>
       </div>
     </div>
   )

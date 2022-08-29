@@ -1,71 +1,80 @@
-.HomePage{
-  color:white;
-
+.HomePage {
+  color: #fff;
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  padding-top: 185px;
-  justify-content: space-between;
-  padding-bottom: -3px;
+  height: 600px;
+  padding-top: 15%;
+  align-items: center;
+  justify-content: center;
 
 }
-.Profile-details-role{
- display: flex;
- justify-content: center;
- font-size: 64px;
+.demo{
+   margin-left: 30px;
 }
-.hellocontend{
+.Profile-details-role {
+  display: flex;
+  justify-content: center;
+  font-size: 64px;
+}
+
+.hellocontend {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   margin-right: 8px;
- 
+
 }
-.nameContent{
-  font-family:  'Montserrat', sans-serif;
-   font-weight: 700;
-   margin-left: 8px;
-   text-transform: uppercase;
+
+.nameContent {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-left: 8px;
+  text-transform: uppercase;
 }
-.Typewriter{
+
+.Typewriter {
   font-size: 64px;
 
   display: flex;
   justify-content: center;
-  font-family:  'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
-.profileContent{
+
+.profileContent {
   padding: 10px;
   display: flex;
   justify-content: center;
-  font-family:  'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 30px;
 
 }
-.profile-options{
+
+.profile-options {
   display: flex;
   justify-content: center;
   height: 100px;
-  
+
 }
 
-.resumeBtn{
+.resumeBtn {
   margin-top: 30px;
   color: black;
   background-color: white;
-  font-family:  'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 20px;
   margin-left: 20px;
   border: unset;
   padding: 16px 18px;
   border-radius: 20px;
-  
+
 }
 
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -74,16 +83,16 @@
 
 
 .buttons {
-  
+
   margin-top: 50px;
   text-align: center;
   border-radius: 30px;
- 
+
 }
 
 .blob-btn {
   margin-top: 25px;
-  font-family:  'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   z-index: 1;
   position: relative;
@@ -93,7 +102,7 @@
   text-transform: uppercase;
   color: #0505A9;
   font-size: 16px;
- 
+
   background-color: transparent;
   outline: none;
   border: none;
@@ -101,6 +110,7 @@
   cursor: pointer;
   border-radius: 30px;
 }
+
 .blob-btn:before {
   content: "";
   z-index: 1;
@@ -112,6 +122,7 @@
   border: 2px solid #0505A9;
   border-radius: 30px;
 }
+
 .blob-btn:after {
   content: "";
   z-index: -2;
@@ -123,16 +134,19 @@
   transition: all 0.3s 0.2s;
   border-radius: 30px;
 }
+
 .blob-btn:hover {
   color: #FFFFFF;
   border-radius: 30px;
 }
+
 .blob-btn:hover:after {
   transition: all 0.3s;
   left: 0;
   top: 0;
   border-radius: 30px;
 }
+
 .blob-btn__inner {
   z-index: -1;
   overflow: hidden;
@@ -144,12 +158,14 @@
   border-radius: 30px;
   background: #ffffff;
 }
+
 .blob-btn__blobs {
   position: relative;
   display: block;
   height: 100%;
   filter: url("#goo");
 }
+
 .blob-btn__blob {
   position: absolute;
   top: 2px;
@@ -160,33 +176,118 @@
   transform: translate3d(0, 150%, 0) scale(1.7);
   transition: transform 0.45s;
 }
+
 @supports (filter: url("#goo")) {
   .blob-btn__blob {
     transform: translate3d(0, 150%, 0) scale(1.4);
   }
 }
+
 .blob-btn__blob:nth-child(1) {
   left: 0%;
   transition-delay: 0s;
 }
+
 .blob-btn__blob:nth-child(2) {
   left: 30%;
   transition-delay: 0.08s;
 }
+
 .blob-btn__blob:nth-child(3) {
   left: 60%;
   transition-delay: 0.16s;
 }
+
 .blob-btn__blob:nth-child(4) {
   left: 90%;
   transition-delay: 0.24s;
 }
+
 .blob-btn:hover .blob-btn__blob {
   transform: translateZ(0) scale(1.7);
 }
+
 @supports (filter: url("#goo")) {
   .blob-btn:hover .blob-btn__blob {
     transform: translateZ(0) scale(1.4);
   }
 }
 
+
+@media only screen and (max-width: 768px) {
+
+
+  .hellocontend {
+   
+    font-size: 40px;
+  }
+
+  .nameContent {
+
+    font-size: 40px;
+  } 
+
+  .Typewriter {
+    font-size: 40px;
+  }
+
+  .profileContent {
+    font-size: 25px;
+
+  }
+  .blob-btn{
+    margin-top: 13px;
+    font-size: 14px;
+    padding: 17px 40px;
+  }
+  .HomePage {
+   height: 500px;
+    justify-content: end;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .hellocontend {
+   
+    font-size: 30px;
+  }
+
+  .nameContent {
+
+    font-size: 30px;
+  } 
+
+  .Typewriter {
+    font-size: 30px;
+  }
+  .profileContent {
+    font-size: 18px;
+
+  }
+  .blob-btn{
+    padding: 14px 33px;
+  }
+  .HomePage {
+   height: 480px;
+    justify-content: end;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .Typewriter {
+    font-size: 25px;
+  }
+  .hellocontend {
+   
+    font-size: 25px;
+  }
+
+  .nameContent {
+
+    font-size: 25px;
+  } 
+  .profileContent {
+    font-size: 17px;
+
+  }
+ 
+}

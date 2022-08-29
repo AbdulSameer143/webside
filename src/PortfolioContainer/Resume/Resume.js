@@ -23,15 +23,15 @@ function Resume() {
 
             <div className='conteine-Box container'>
 
-                <div style={{height:"400px" ,width:"27%",display:"flex",alignItems:"center"}}>
+                <div style={{ height: "400px", width: "27%", display: "flex", alignItems: "center" }}>
                     <div className='left-Container'>
 
                         <div className='resume-left-icon-section'>
-                            <img src={education} alt='education' className='imageEducation'/>
                             <img src={education} alt='education' className='imageEducation' />
                             <img src={education} alt='education' className='imageEducation' />
                             <img src={education} alt='education' className='imageEducation' />
-                            <img src={education} alt='education' className='imageEducation'/>
+                            <img src={education} alt='education' className='imageEducation' />
+                            <img src={education} alt='education' className='imageEducation' />
                         </div>
                         <div className='resume-left-title-section'>
                             <div className='resumeHeading'> Education </div>
