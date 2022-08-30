@@ -66,7 +66,7 @@
   transition: 0.6s;
   position: fixed;
   top: 0;
-height: 10%;
+height: 75px;
   width: 100%;
   background-color: none;
   padding-top: 60px;
@@ -172,6 +172,9 @@ height: 10%;
 .menu{
   padding-left: 10px;
 }
+.link-btn{
+  padding: 6px 8px;
+}
 }
 
 
@@ -215,7 +218,7 @@ height: 10%;
   .sidenav a {
  
       padding-left: 0px;
-      padding-top: 59px;
+      padding-top: 17px;
   
   }
   

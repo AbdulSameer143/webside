@@ -13,6 +13,7 @@
 
 
 }
+
 .perspective-box {
     position: relative;
     display: inline-block;
@@ -58,6 +59,21 @@
 }
 
 .BoxSize {
+    height: 250px;
+    width: 200px;
+    border: 1px solid white;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    background-color: #302f2f;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px 1px #0505A9;
+    border-radius: 50px 4px 50px 4px;
+
+}
+.BoxSize:hover {
     height: 250px;
     width: 200px;
     border: 1px solid white;

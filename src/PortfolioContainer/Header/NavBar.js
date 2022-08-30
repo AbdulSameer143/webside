@@ -29,6 +29,7 @@ function NavBar() {
                 <Link to="Skills" className='link-btn-slider' onClick={ToggleSidebar}>Skills</Link>
                 <Link to="Experience" className='link-btn-slider' onClick={ToggleSidebar}>Experience</Link>
                 <Link to="ContactMe" className='link-btn-slider' onClick={ToggleSidebar}>Contact Me</Link>
+                <Link to="Portfolio" className='link-btn-slider' onClick={ToggleSidebar}>Portfolio</Link>
             </div>
 
 
@@ -53,6 +54,10 @@ function NavBar() {
                     </div>
                     <div>
                         <li><Link to='ContactMe' className='link-btn'>ContactMe</Link></li>
+                        <div className='hrRow'></div>
+                    </div>
+                    <div>
+                        <li><Link to='Portfolio' className='link-btn'>Portfolio</Link></li>
                         <div className='hrRow'></div>
                     </div>
 

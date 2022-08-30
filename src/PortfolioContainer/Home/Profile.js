@@ -40,14 +40,14 @@ function Profile() {
             </button>
           </a> */}
         <a href={MyPDF} download>
-          <button class="blob-btn">
+          <button className="blob-btn">
             Get Resume
-            <span class="blob-btn__inner">
-              <span class="blob-btn__blobs">
-                <span class="blob-btn__blob"></span>
-                <span class="blob-btn__blob"></span>
-                <span class="blob-btn__blob"></span>
-                <span class="blob-btn__blob"></span>
+            <span className="blob-btn__inner">
+              <span className="blob-btn__blobs">
+                <span className="blob-btn__blob"></span>
+                <span className="blob-btn__blob"></span>
+                <span className="blob-btn__blob"></span>
+                <span className="blob-btn__blob"></span>
               </span>
             </span>
           </button>
